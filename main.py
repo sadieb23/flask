@@ -10,7 +10,7 @@ my_account.deposit(500.00)
 #withdraw some money from account
 my_account.withdraw(300.00)
 
-#print result of calling get_balance method
+#print result of calling get the_balance method
 balance_info = my_account.get_balance()
 print(balance_info)
 

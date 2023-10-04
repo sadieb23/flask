@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Enter an Integer</h1>
+<form action="/check" method="get">
+    <label for="number">Enter an integer:</label>
+    <input type="text" id="number" name="number">
+    <button type="submit">Check</button>
+</form>
+{% endblock %}

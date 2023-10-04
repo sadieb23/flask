@@ -19,6 +19,6 @@ class BankAccount:
             print("Invalid withdrawal amount or insufficient balance.")
 
     def get_balance(self):
-        #returns string representing account balance
+        #returns string representing the account balance
         return f"{self.account_name} has a balance of {self.balance}"
 #used chatgpt for help

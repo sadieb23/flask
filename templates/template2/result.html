@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Result</h1>
+{% if result %}
+<p>The number {{ number }} is {{ result }}.</p>
+{% else %}
+<p>No query parameter included.</p>
+{% endif %}
+{% endblock %}
